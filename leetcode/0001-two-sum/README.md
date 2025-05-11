@@ -1,38 +1,43 @@
 # [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 
-You are given the heads of two sorted linked lists <code>list1</code> and <code>list2</code>.
+Given an array of integers <code>nums</code>and an integer <code>target</code>, return indices of the two numbers such that they add up to <code>target</code>.
 
-Merge the two lists into one **sorted**  list. The list should be made by splicing together the nodes of the first two lists.
+You may assume that each input would have **exactly one solution** , and you may not use the same element twice.
 
-Return the head of the merged linked list.
+You can return the answer in any order.
 
 **Example 1:** 
-<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg" style="width: 662px; height: 302px;">
 
 ```
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
 **Example 2:** 
 
 ```
-Input: list1 = [], list2 = []
-Output: []
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
 ```
 
 **Example 3:** 
 
 ```
-Input: list1 = [], list2 = [0]
-Output: [0]
+Input: nums = [3,3], target = 6
+Output: [0,1]
 ```
 
 **Constraints:** 
 
-- The number of nodes in both lists is in the range <code>[0, 50]</code>.
-- <code>-100 <= Node.val <= 100</code>
-- Both <code>list1</code> and <code>list2</code> are sorted in **non-decreasing**  order.
+- <code>2 <= nums.length <= 10^4</code>
+- <code>-10^9 <= nums[i] <= 10^9</code>
+- <code>-10^9 <= target <= 10^9</code>
+- **Only one valid answer exists.** 
+
+**Follow-up:** Can you come up with an algorithm that is less than <code>O(n^2)</code>time complexity?
+
+---
 
 以下是針對你提供的 LeetCode `Two Sum` 解法的 **程式碼分析與優化建議**，已整理為適合貼到 GitHub README 或筆記中的 Markdown 格式。
 
