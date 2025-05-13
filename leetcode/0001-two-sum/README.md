@@ -100,6 +100,10 @@ public:
 * 使用更語意化的命名如 `numToIndex` 代替 `numsMap`
 * 不需要先 `find()` 再查 `numsMap[complement]`，可直接用 `count()` 或 `find()->second`
 
+> [!TIP]
+> **Why count() is available?** <br><br>
+>  `count()` only returns 0 or 1 in a `map` or `unordered_map`, because keys are unique. <br><br>
+
 ---
 
 ### 🚀 優化後程式碼
