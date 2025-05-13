@@ -1,20 +1,29 @@
-# 🧠 A LeetCode Journey – brute force ➡️ brain force
+<h1 align="center">
+  🧠 A LeetCode Journey – brute force ➡️ brain force
+</h1>
 
-Welcome to my late-night `debug()` sessions. This repo documents my quest to become a better problem solver.
-I’m solving problems, writing readable code, and committing like a responsible adult👤
+
+<p align="center">
+  <img src="./.github/cover.png">
+</p>
+
+  Welcome to my late-night `debug()` sessions. This repo documents my quest to become a better problem solver.<br>
+  I’m solving problems, writing readable code, and committing like a responsible adult👤
+
+---
 
 Learning is better when...
 - Progress is **tracked**   
 - Solutions can be **reused**
-###### Also because GitHub green squares are addictive...💦
+###### Also when GitHub green squares lights up...💦
 
 
 ## 🛠️ What's Inside
 
-- 🧩 LeetCode problems
-- ❓ My solutions
-- 📁 Folder names are clean and commit messages are *semi-readable* (thanks to a mini tool I wrote)
-- 📚 `README.md` files with explanations or breakdowns
+-  LeetCode problems daily 🧩
+-  My solutions ❓
+-  Folder names are clean and commit messages are *semi-readable* 📁 
+-  `README.md` files with explanations and optimizing sugguestions 📚
 
 
 ## 🙏 Credits & Inspiration
@@ -26,7 +35,6 @@ whose clean repo setup and approach gave me the nudge to start organizing my own
 ## 🪪 License
 
 MIT License
-
 This project can be modified and reused for your own learning journey. Just keep the license, and if you borrow a good chunk of it, a shoutout would be cool. We're all trying to level up together.
 
 
