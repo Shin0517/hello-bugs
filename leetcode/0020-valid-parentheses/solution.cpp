@@ -5,7 +5,7 @@ class Solution {
             for (int i = 0; i < s.size(); i++){
                 if (s[i] == '(' || s[i] == '[' || s[i] == '{') {
                     parenthesesStack.push(s[i]);
-                } else if (!parenthesesStack.empty() && ()
+                } else if (!parenthesesStack.empty() && (
                             (parenthesesStack.top() == '(' && s[i] == ')') ||
                             (parenthesesStack.top() == '[' && s[i] == ']') ||
                             (parenthesesStack.top() == '{' && s[i] == '}'))) {
@@ -16,4 +16,4 @@ class Solution {
             }
             return parenthesesStack.empty();
         }
-};
+    };
