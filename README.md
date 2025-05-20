@@ -20,10 +20,14 @@ Learning is better when...
 
 ## 🛠️ What's Inside
 
--  LeetCode problems daily 🧩
--  My solutions ❓
--  Folder names are clean and commit messages are *semi-readable* 📁 
--  `README.md` files with explanations and optimizing sugguestions 📚
+-  LeetCode problems daily 
+-  My solutions 
+-  Folder names are clean and commit messages are *semi-readable* 
+-  `README.md` files with explanations and optimizing sugguestions 
+
+
+## 🫀 My Leetcode Stats
+![LeetCode Stats](https://leetcard.jacoblin.cool/Shin0517?theme=nord&font=Noto%20Sans%20Kayah%20Li&ext=heatmap)
 
 
 ## 🙏 Credits & Inspiration
@@ -35,12 +39,4 @@ whose clean repo setup and approach gave me the nudge to start organizing my own
 ## 🪪 License
 
 MIT License
-This project can be modified and reused for your own learning journey. Just keep the license, and if you borrow a good chunk of it, a shoutout would be cool. We're all trying to level up together.
-
-
-## Made With
-
-- Caffeine
-- Frustration
-- Curiosity
-- `print("Is this working?")`
+If you borrow a good chunk of it, a shoutout would be cool. We're all trying to level up together.
